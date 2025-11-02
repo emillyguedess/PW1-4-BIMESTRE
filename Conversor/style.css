@@ -10,25 +10,31 @@
 
 body{
   background-color: rgb(238, 216, 248);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 h1{
-font-size: 1.5rem;
-box-shadow: 2px 4px 6px rgba(40, 0, 77, 0.6);
-margin-bottom: 10px;
+  font-size: 1.5rem;
+  box-shadow: 2px 4px 6px rgba(40, 0, 77, 0.6);
+  margin-bottom: 10px;
 }
+
 .principal{
+  margin: 15px auto;
   display: flex;
   flex-direction: column;
-  margin-top: 200pxpx;
-  margin: auto;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  align-items: center;
   width: 24rem;
   height: 20rem;
   background-image: url(./images/baixados.jpeg);
   border-radius: 20px;
   color: #850e37;
-  justify-content: center;
-  align-items: center;
   box-shadow: 2px 4px 6px rgba(40, 0, 77, 0.6);
 }
 
