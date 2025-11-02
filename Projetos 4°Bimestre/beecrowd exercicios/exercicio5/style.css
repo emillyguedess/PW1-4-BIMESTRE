@@ -1,0 +1,77 @@
+*{
+  padding: 0%;
+  box-sizing: border-box;
+  font-size: 1rem;
+  margin: 0%;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e8cce9;
+}
+
+.principal{
+  flex-direction: column;
+  display: flex;
+  text-align: center;
+  width: 26rem;
+  height: 23rem;
+  background-color: #d794ce;
+  border-radius: 20px;
+  margin: 50px auto;
+  color: #6d1436;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  font-size: 2rem;
+  width: 20rem;
+  height:2.5rem;
+  background-color: #e1afda;
+  color: #6d1436;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  border-radius: 17px;
+}
+
+.primeiro-numero , .segundo-numero{
+  border: none;
+  border-radius: 2rem;
+  margin-bottom: 1rem;
+  outline: none;
+  flex-direction: column;
+  display: block;
+  width: 15rem;
+  padding: 0.8rem;
+  background-color: #ebc9e6;
+}
+.primeiro-numero::placeholder  , .segundo-numero::placeholder{
+  color: #6d1436;
+}
+
+
+
+.btn{
+  width: 8rem;
+  background-color: #f5e4f3;
+  border: none;
+  border-radius: 2rem;
+  margin-bottom: 2rem;
+  outline: none;
+  flex-direction: column;
+  display: block;
+  padding: 0.8rem;
+  color: #6d1436;
+}
+
+.btn:active{
+  background-color: rgb(114, 49, 122);
+  color:#f5e4f3;
+  opacity: 0.6;
+}
+
+.valor{
+  border-radius: 10px;
+  width: 10rem;
+  padding: 0.8rem;
+  background-color: #ffc2ff;
+}
