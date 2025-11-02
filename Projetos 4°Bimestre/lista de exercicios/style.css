@@ -1,0 +1,82 @@
+ *{
+  padding: 0;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+ }
+
+ body{
+ background-image: url(./imgf/blueberry\ walpaper.jpeg);
+ margin: 0 auto;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ }
+
+.principal{
+  flex-direction: column;
+  display: flex;
+  text-align: center;
+  width: 30rem;
+  height: 28rem;
+  background-color: #ebc7fcb6;
+  border-radius: 20px;
+  margin: 50px auto;
+  color: #fbf8fc;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+margin-bottom: 15px;
+height: 6rem;
+width: 19rem;
+background-color: #c893e0;
+border-radius: 20px;
+text-align: center;
+
+}
+.ex1 a{
+    color: #f9f6fa;
+    font-size: 25px;
+    background-color: #ecb6f7;
+    border-radius:  10px;
+    padding: 5px;
+    text-decoration: none;
+}
+.ex2 a{
+    color: #f9f6fa;
+    font-size: 25px;
+    background-color: #ecb6f7;
+    border-radius:  10px;
+    padding: 5px;
+    text-decoration: none;
+}
+.ex3 a{
+    color: #f9f6fa;
+    font-size: 25px;
+    background-color: #ecb6f7;
+    border-radius:  10px;
+    padding: 5px;
+    text-decoration: none;
+}
+.ex4 a{
+    color: #f9f6fa;
+    font-size: 25px;
+    background-color: #ecb6f7;
+    border-radius:  10px;
+    padding: 5px;
+    text-decoration: none;
+}
+.ex5 a{
+    color: #f9f6fa;
+    font-size: 25px;
+    background-color: #ecb6f7;
+    border-radius:  10px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+ 
